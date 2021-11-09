@@ -1,0 +1,1 @@
+require("src/shell/shell").new()
