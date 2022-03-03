@@ -5,6 +5,7 @@
 local settings = {
 --  Aesthetic
     Prefix = "$";
+    DefaultColor = "white";
     BrightColorsAlways = true;
 
 --  Behavior

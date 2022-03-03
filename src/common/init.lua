@@ -14,6 +14,7 @@ local init = {}
     init.promise = require(common.. 'promise')
     init.colors = require(common.. 'colors')
     init.enum = require(common.. 'enum')
+    init.std = require(common.. 'std')
     init.co = require(common.. 'co')
 -- modules ]]
 
