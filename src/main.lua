@@ -1,1 +1,2 @@
-require("src/shell/shell").new()
+local shell = require("src/shell/init")
+shell.new()
