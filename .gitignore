@@ -1,0 +1,8 @@
+# License
+LICENSE
+
+# replit files
+/.replit
+
+# toml configuration files
+/*.toml
