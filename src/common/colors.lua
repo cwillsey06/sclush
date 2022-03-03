@@ -1,3 +1,7 @@
+-- colors.lua
+-- Coltrane Willsey
+-- 2022-03-03 [14:16]
+
 local _color_enums = {
     -- attributes
     reset = 0,

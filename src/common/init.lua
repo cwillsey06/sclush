@@ -1,6 +1,6 @@
 -- init.lua
 -- Coltrane Willsey
--- 2022-03-03 [14:15]
+-- 2022-03-03 [14:16]
 
 local init = {}
 
@@ -11,8 +11,10 @@ local init = {}
 -- modules [[
     local common = 'src/common/'
     init.caretaker = require(common.. 'caretaker')
+    init.promise = require(common.. 'promise')
     init.colors = require(common.. 'colors')
     init.enum = require(common.. 'enum')
+    init.co = require(common.. 'co')
 -- modules ]]
 
 -- functions [[

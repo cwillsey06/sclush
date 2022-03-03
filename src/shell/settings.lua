@@ -1,3 +1,7 @@
+-- settings.lua
+-- Coltrane Willsey
+-- 2022-03-03 [14:15]
+
 local settings = {
 --  Aesthetic
     Prefix = "$";
