@@ -8,7 +8,7 @@ local sh_profile = {
     echo = {
         meta = 'echos $args to console';
         invoke = function(self, args)
-            std.write((string.rep('%s ', #args)):format(unpack(args)))
+            std.write(pack('=A', unpack(args)))
         end;
     }
 }
