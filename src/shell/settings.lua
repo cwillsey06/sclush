@@ -3,8 +3,8 @@
 -- 2022-03-03 [14:15]
 
 local settings = {
-    Name = "Yet Another Useless Lua Shell";
-    shortName = "yauls";
+    Name = "Source-Controlled Lua Shell";
+    shortName = "sclush";
 
 --  Aesthetic
     Prefix = "$";

@@ -1,2 +1,2 @@
-# yauls-replit
+# sclush
 nothing of much use
