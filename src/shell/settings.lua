@@ -13,11 +13,9 @@ local settings = {
 
 --  Behavior
     EnableTaskResumption = false;
-    -- Default: false
     -- enables task suspension and resumption
 
     TaskSuspendBehavior = 'Kill';
-    -- Default: 'kill'
     -- suspend: Attempt to freeze the task to resume later.
     -- Kill: Ends task immediately
 
