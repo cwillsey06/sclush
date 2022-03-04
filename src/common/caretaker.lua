@@ -2,7 +2,6 @@
 -- Coltrane Willsey
 -- 2022-03-03 [14:15]
 
-
 -- similar to maid, janitor, trove classes for use on roblox
 
 --[[
