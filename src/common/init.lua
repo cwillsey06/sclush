@@ -5,7 +5,6 @@
 local init = {}
 
 -- properties [[
-    init.clear = "\027[H\027[2J"
 -- properties ]]
 
 -- modules [[

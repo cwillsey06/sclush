@@ -6,10 +6,11 @@
   -- TODO: Add documentation
 --]]
 
+local settings = require('src/shell/settings')
+
 local common = require('src/common/init')
 local Caretaker = require(common.caretaker)
 local Promise = require(common.promise)
-local colors = require(common.colors)
 local Enum = require(common.enum)
 local std = require(common.std)
 local co = require(common.co)
@@ -33,13 +34,12 @@ function shell.new()
   self._shell_tasks = self._caretaker:Extend()
 
   self.Profile = require('src/shell/profile')
-  self.Settings = require('src/shell/settings')
 
   self._caretaker:Add(self)
   return self
 end
 
-function shell:Run(raw)
+function shell:RunCommand(raw)
 	local command = self.Profile[getCommand(raw)]
 	if command then
   local args = getArguments(raw)
@@ -52,7 +52,7 @@ function shell:Run(raw)
 	elseif raw:match("^%s*$") then
     return
 	else
-		util.write(Enum.WriteType.Error,"unknown input")
+		std.write(Enum.WriteType.Error, ("%s: command not found: %s"):format(settings.shortName, raw))
 	end
 end
 
